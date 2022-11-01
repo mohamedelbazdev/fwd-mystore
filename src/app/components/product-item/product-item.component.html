@@ -1,0 +1,10 @@
+<div class="product-container">
+    <img src="{{ product.url }}" class="product-image" (click)="onClickChange()">
+    <h3 class="my-3">{{ product.name }}</h3>
+    <p>{{ product.price | currency }}</p>
+    <select class="form-select mb-2 w-50" [(ngModel)]="selectedNum">
+      <option *ngFor="let number of numbers">{{number}}</option>
+    </select>
+    <button class="btn btn-primary w-50" (click)="addToCart(product)">Add to Cart</button>
+</div>
+
