@@ -27,21 +27,20 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
  
  
  <h2>Getting Started</h2>
-<ul>
-   <li>  To get this project, type git clone https://github.com/mohamedelbazdev/fwd-mystore.git in your termical to clone this project to your computer.</li>
-   <li>  <code>cd fwd-mystore </code> to cd into your project.</li>
-   <li>  Type <code>npm install</code> to install all the dependencies.</li>
-   <li>  Type <code>ng serve</code> to start the project.</li>
-   <li>  Go to localhost:4200 to see the app.</li>
-</ul>
+
+     To get this project, type git clone https://github.com/mohamedelbazdev/fwd-mystore.git in your termical to clone this project to your computer.
+    <code>cd fwd-mystore </code> to cd into your project.</li>
+    Type <code>npm install</code> to install all the dependencies.</li>
+     Type <code>ng serve</code> to start the project.</li>
+     Go to localhost:4200 to see the app.</li>
 
  <h3>Routing:<h3>
 
-    <li>/: home -> products list </li>
-    <li>/product/:productName: product item details page</li>
-    <li>/cart: cart checkout page</li>
-    <li>/confirm-order: confirm order page</li>
-    <li>**: wild card - 404 error page</li>
+    /: home -> products list </li>
+    /product/:productName: product item details page</li>
+    /cart: cart checkout page</li>
+    /confirm-order: confirm order page</li>
+    **: wild card - 404 error page</li>
 
 
     
