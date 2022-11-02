@@ -16,31 +16,32 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
 <h3>App specifics</h3>
 <h3>Model:</h3>
 
-    Iproduct
-    Iuser
+    <p>Iproduct</p>
+    <p>Iuser</p>
 
 <h3>Service:</h3>
 
-    Cart
-    Product
-    Confirm Order
+   <p> Cart</p>
+   <p> Product</p>
+    <p>Confirm Order</p>
  
  
  <h2>Getting Started</h2>
+<ul>
+   <li>  To get this project, type git clone https://github.com/mohamedelbazdev/fwd-mystore.git in your termical to clone this project to your computer.</li>
+   <li>  <code>cd fwd-mystore </code> to cd into your project.</li>
+   <li>  Type <code>npm install</code> to install all the dependencies.</li>
+   <li>  Type <code>ng serve</code> to start the project.</li>
+   <li>  Go to localhost:4200 to see the app.</li>
+</ul>
 
-    *- To get this project, type git clone https://github.com/mohamedelbazdev/fwd-mystore.git in your termical to clone this project to your computer.
-    *- <code>cd fwd-mystore </code> to cd into your project.
-    *- Type <code>npm install</code> to install all the dependencies.
-    *- Type <code>ng serve</code> to start the project.
-    *- Go to localhost:4200 to see the app.
-    
  <h3>Routing:<h3>
 
-    /: home -> products list 
-    /product/:productName: product item details page
-    /cart: cart checkout page
-    /confirm-order: confirm order page
-    **: wild card - 404 error page
+    <li>/: home -> products list </li>
+    <li>/product/:productName: product item details page</li>
+    <li>/cart: cart checkout page</li>
+    <li>/confirm-order: confirm order page</li>
+    <li>**: wild card - 404 error page</li>
 
 
     
