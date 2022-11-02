@@ -27,13 +27,13 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
  
  
  <h2>Getting Started</h2>
-
+<p>
      To get this project, type git clone https://github.com/mohamedelbazdev/fwd-mystore.git in your termical to clone this project to your computer.
     <code>cd fwd-mystore </code> to cd into your project.
     Type <code>npm install</code> to install all the dependencies.
      Type <code>ng serve</code> to start the project.
      Go to localhost:4200 to see the app.
-
+</p>
  <h3>Routing:<h3>
 
     /: home -> products list
