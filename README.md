@@ -5,12 +5,12 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
 
 <h2>Summary</h2>
 
-    In this project, I will use Angular to create a simple single-page e-commerce application called FWD Mystore. The application will include a variety of   Angular components that communicate with one another, such as a product list component that displays a list of items for which a user can shop. The mock data is generated from the provided static json file, and the items are then rendered into the page.
+   <p> In this project, I will use Angular to create a simple single-page e-commerce application called FWD Mystore. The application will include a variety of   Angular components that communicate with one another, such as a product list component that displays a list of items for which a user can shop. The mock data is generated from the provided static json file, and the items are then rendered into the page.</p>
     
 
 <h2>App components</h2>
 
-    Product list product-list: list of all product items on homepage Product item product-item: single component that makes up product list Product item details product-item-details: detail of product when users navigate to single product with specific id Nav bar nav-bar: navigation bar that stays on top of every route Favorite button favorite-button: favorite icon in product item detail that helps users save their favorite products Cart cart: checkout form with form validation (left) and cart list (right) Confirm Order confirmation: confirmOrder page after successful checkout Page not found page-not-found: 404 error page
+   <p> Product list product-list: list of all product items on homepage Product item product-item: single component that makes up product list Product item details product-item-details: detail of product when users navigate to single product with specific id Nav bar nav-bar: navigation bar that stays on top of every route Favorite button favorite-button: favorite icon in product item detail that helps users save their favorite products Cart cart: checkout form with form validation (left) and cart list (right) Confirm Order confirmation: confirmOrder page after successful checkout Page not found page-not-found: 404 error page. </p>
 
 
 <h3>App specifics</h3>
