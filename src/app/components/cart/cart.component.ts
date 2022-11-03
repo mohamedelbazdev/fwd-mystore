@@ -11,17 +11,11 @@ import { Iproduct } from 'src/app/models/iproduct';
 })
 export class CartComponent implements OnInit {
   fullName: string = '';
-
   address: string = '';
-
   creditCardNumber: string = '';
-
   products: Iproduct[] = [];
-
   empty: boolean = true;
-
   total: number = 0;
-
   quantityValue: number = 0;
 
   onChange = (e: any, product: Iproduct) => {
@@ -38,10 +32,17 @@ export class CartComponent implements OnInit {
   constructor(
     private cartService: CartService,
     private router: Router,
-    private confirmOrderService: ConfirmOrderService
+    private confirmOrderService: ConfirmOrderService,
   ) { }
 
+  creditCardText(event: any) {
+    const seperator = '^([0-9])';
+    const maskSeperator = new RegExp(seperator, 'g');
+    let result = maskSeperator.test(event.key); return result;
+  }
+
   ngOnInit(): void {
+
     this.products = this.cartService.getProductsInCart();
 
     if (this.products.length !== 0) {

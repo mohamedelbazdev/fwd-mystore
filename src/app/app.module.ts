@@ -12,6 +12,7 @@ import { ProductItemDetailsComponent } from './components/product-item-details/p
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { AddToCartBtnComponent } from './shared/add-to-cart-btn/add-to-cart-btn.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ProductItemDetailsComponent,
     ProductsListComponent,
     HeaderComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AddToCartBtnComponent
   ],
   imports: [
     BrowserModule,
