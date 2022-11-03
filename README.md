@@ -21,8 +21,8 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
 
 <h3>Service:</h3>
 
-   Cart
-   Product
+   Cart | 
+   Product | 
    Confirm Order
  
  
