@@ -10,7 +10,7 @@ This project was initially generated with <a href="https://angular.io/cli">Angul
 
 <h2>App components</h2>
 
-   <p> Product list product-list: list of all product items on homepage Product item product-item: single component that makes up product list Product item details product-item-details: detail of product when users navigate to single product with specific id Nav bar nav-bar: navigation bar that stays on top of every route Favorite button favorite-button: favorite icon in product item detail that helps users save their favorite products Cart cart: checkout form with form validation (left) and cart list (right) Confirm Order confirmation: confirmOrder page after successful checkout Page not found page-not-found: 404 error page. </p>
+   <p> Product list product-list: list of all product items on homepage Product item product-item: single component that makes up product list Product item details product-item-details: detail of product Cart cart: checkout form with form validation and cart list Confirm Order confirmation: confirmOrder page after successful checkout Page not found page-not-found: 404 error page. </p>
 
 
 <h3>App specifics</h3>
